@@ -1,1 +1,3 @@
-# Koakoa Clone 2024 Update
+# Kakao talk Clone 2024 Update
+
+HTML & CSS Practice
