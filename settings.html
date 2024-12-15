@@ -3,7 +3,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chat - Kakao Clone</title>
+    <title>Settings - Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -21,34 +21,48 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
-      </div>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html" style="color:inherit;">
+                <i class="fas fa-angle-left fa-2x"></i>
+            </a>
+            </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search fa-lg"></i>
+        </div>
     </header>
 
     <main class="main-screen">
-      <a href="chatroom.html" style="text-decoration: inherit; color:inherit;">
-    <div class="user-component">
-      <div class="user-component__column">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl4yFEKoDn1xRJ_XwGOQOpfvlQofFviXRTLw&s" 
-        class="user-component_avatar">
-        <div class="user-component__text">
-          <h4 class="user-component__title">Jae</h4>
-          <h6 class="user-component__subtitle">Lia, do you want to eat chicken?</h6>
-        </div>
-      </div>
-      <div class="user-component__column">
-        <span class="user-component__time">21:22</span>
-        <div class="badge">1</div>
-      </div>
-    </div>
-     </a>
+        <ul class="settings-list">
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>Notices</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-flask"></i>
+                    <span>Kakao Lab</span>
+                </div>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fas fa-info-circle"></i>
+                    <span>Versions</span>
+                </div>
+                <div class="settings__setting-column">Latest Version</div>
+            </li>
+        </ul>
     </main>
+
+
+
 
 
     <nav class="nav">
