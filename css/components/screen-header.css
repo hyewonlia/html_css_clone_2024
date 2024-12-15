@@ -1,0 +1,31 @@
+
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+}
+
+.screen-header__title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.screen-header__icons {
+  display: flex;
+  gap: 30px;
+}
+
+.screen-header__link {
+  position: relative;
+}
+
+.screen-header__ellipsis {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 20px;
+  position: absolute;
+  left: 23px;
+  bottom: 37px;
+}
